@@ -1,0 +1,35 @@
+#wrap{
+	position: relative;;
+	max-width: 960px;
+	margin:0 auto;
+	height: 420px;
+	display:flex;
+    justify-content: center;
+    background-image: url("background1.jpg");
+	background-color: yellow;
+	background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.btn{
+
+	font-family: arial;
+	text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500px;
+	width: 240px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	display: inline-block;
+	border:3px solid #009688;
+    border-radius: 8px;
+	text-decoration: none;
+	margin: 120px 40px 0px 0px;
+	color: #069f;
+	position:relative;
+	overflow: hidden;
+	background-color: #ed6;
+	transition: .3s
+	}
